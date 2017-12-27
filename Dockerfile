@@ -10,4 +10,6 @@ RUN npm install
 
 EXPOSE 3000
 
+RUN cd /home/json
+
 CMD ["node","app.js"]
