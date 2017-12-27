@@ -4,7 +4,7 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essenti
 
 WORKDIR /home/json
 
-ADD package.json /home/meshizen/package.json
+ADD package.json /home/json/package.json
 
 RUN npm install
 
