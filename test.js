@@ -4,6 +4,8 @@ for (var i = 0; i < 5; i++) {
     }.bind(i))
 }
 
+
+
 function sm(i, cb) {
     setTimeout(() => {
         cb(i)
